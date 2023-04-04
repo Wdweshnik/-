@@ -1,9 +1,44 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, 
+form, fieldset, input, p, blockquote, table, th, td, embed, object {
+        padding: 0;
+        margin: 0; 
+        }
+table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        }
+fieldset, img, abbr {
+        border: 0;
+        }
+address, caption, cite, code, dfn, em, 
+h1, h2, h3, h4, h5, h6, strong, th, var {
+        font-weight: normal;
+        font-style: normal;
+        }
+ul {
+        list-style: none;
+        }
+caption, th {
+        text-align: left;
+        }
+h1, h2, h3, h4, h5, h6 {
+        font-size: 1.0em;
+        }
+q:before, q:after {
+        content: '';
+        }
+a, ins {
+        text-decoration: none;
+        }
+
+
+
 
 /*-----------------------------*/
 
 /*Общее*/
 body{
-	background-image: url("Res/background2.png");
+	background-image: url("Res/Background2.png");
 	background-position: center;
 	background-attachment: fixed;
 	background-size: calc(50% + 1980px) calc(70% + 1280px);
@@ -129,7 +164,7 @@ body{
 	border-radius: 20px;
 }
 .up_menu li ul li{
-	margin-left: -30px;
+	margin-left: 5px;
 	margin-top: 5px;
 }
 
@@ -137,7 +172,7 @@ body{
 	display: block;
 	z-index:1000;
 	height: auto;
-	width: 220px;
+	width: 250px;
 	
 	box-shadow: -5px 5px 5px #5f5f5f;
 	background-color: #242423;
@@ -504,7 +539,7 @@ a.slide__next,
 	position:  relative  ;
 	margin-left: auto;
     margin-right: auto;
-	margin-top: -35px;
+	margin-top: -0px;
 	
 	padding: 40px 20px 40px 20px ;
 	
@@ -543,7 +578,7 @@ a.slide__next,
 	position:  relative  ;
 	margin-left: auto;
     margin-right: auto;
-	margin-top: -35px;
+	margin-top: -0px;
 	
 	padding: 40px 20px 40px 20px ;
 	
@@ -576,7 +611,7 @@ a.slide__next,
 	position:  relative  ;
 	margin-left: auto;
     margin-right: auto;
-	margin-top: -35px;
+	margin-top: -0px;
 	
 	padding: 40px 20px 40px 20px ;
 	
@@ -723,7 +758,7 @@ a.slide__next,
 	position:  relative  ;
 	margin-left: auto;
     margin-right: auto;
-	margin-top: -35px;
+	margin-top: -0px;
 	
 	padding: 40px 20px 40px 20px ;
 	
@@ -737,6 +772,10 @@ a.slide__next,
 	position: relative ;
 	margin-top: 0px;
 	font-size: 20px;
+}
+
+.centre_5 h1{
+	
 }
 
 /************************************/
@@ -798,7 +837,7 @@ a.slide__next,
 	position:  relative  ;
 	margin-left: auto;
     margin-right: auto;
-	margin-top: -35px;
+	margin-top: -0px;
 	
 	padding: 40px 20px 40px 20px ;
 	

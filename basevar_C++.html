@@ -37,7 +37,7 @@
 				<li> <a class = "gmt2" href = Site_historycpp.html> О языке С++ </a>
 					<ul>
 						<li> <a class = "mt" href = Site_historycpp.html > История языка С++ </a> </li>
-						<li> <a class = "mt" href = C++_update.html > Обновления C++ </a> </li>
+						<li> <a class = "mt" href = C++_update.html> Обновления C++ </a> </li>
 						<li> <a class = "mt" href = index.html > Где используется С++ </a> </li>
 						<li> <a class = "mt" href = index.html > Языки на основе С++ </a> </li>
 					</ul>
@@ -760,14 +760,24 @@ int main(int argc, char *argv[])
 						<ul>
 							<li> <pre> 
 #include &#60;iostream>
- 
 using namespace std;
 
-int main(int argc, char *argv[])
+int main() 
 {
-	setlocale(LC_ALL, "RU");
-	
-}
+	int min_number = 0, max_number, sum = 0;
+	cout &#60;&#60; «Input value for max number of sequence: «;
+	cin >> max_number;
+	while (min_number &#60;= max_number)
+	{
+		if (min_number % 5 == 0)
+		{
+			sum += min_number;
+		}
+		min_number++;
+	}
+	cout &#60;&#60; «The sum of the numbers is divisible by 5 = » &#60;&#60; sum;
+	return 0;
+	}
 							</pre> </li>
 						</ul>
 					</li>
